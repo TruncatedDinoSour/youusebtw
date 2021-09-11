@@ -1,5 +1,5 @@
 # youusebtw
-A reminder notification that you indeed, use X btw.
+A reminder notification that you indeed, use ___ btw.
 
 ---
 
