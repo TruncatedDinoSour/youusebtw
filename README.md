@@ -29,8 +29,8 @@ sudo make clean uninstall
 
 ## Usage:
 ```
-If you want to configure it edit the /etc/yub file with the time you want to
-be reminded that you use ____ btw
+If you want to configure it - edit the /etc/yub file with
+the time you want to be reminded that you use ____ btw
 ```
 
 ## Usage in `~/.xinitrc` or `~/.xprofile`:
