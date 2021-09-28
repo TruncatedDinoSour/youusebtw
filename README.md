@@ -1,6 +1,10 @@
 # youusebtw
 A reminder notification that you indeed, use ___ btw.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71613062/135051863-c76ab973-8808-4636-b920-b72d8875b213.png"/>
+</p>
+
 ---
 
 > Do you use arch btw and don't get reminded about it every few minutes?
