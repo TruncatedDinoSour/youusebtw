@@ -8,7 +8,7 @@
 main() {
     while true; do
         sleep "$(/bin/cat /etc/yub || echo '10m')"
-        distro="$(/bin/grep -io '^NAME=.*$' < /etc/os-release | /bin/awk '{split($0,name,"="); print tolower(name[2]) }')"
+        distro="$(/bin/grep -io '^NAME=.*$' < /etc/os-release | /bin/awk '{split($0,name,"="); print tolower(name[2]) }' | sed 's/"//g')"
         /usr/bin/notify-send "A reminder that you indeed, use ${distro} btw."
     done
 }
